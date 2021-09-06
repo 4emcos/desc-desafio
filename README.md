@@ -1,5 +1,9 @@
 # Descrição
 
+O objetivo é consumir a api e fazer uma separação por funções, com que apenas uma função seja encarregada de criar usuários, cadastrar equipamentos e aprovar requisições a outra irá fazer requisições de equipamentos e ter acesso a lista deles.
+
+Deve-se fazer uma rota protegida para apenas quem está logado conseguir acessar. O token não é expiravel.
+
 A api está funcionando no endereço http://45.179.89.6:6610/.
 As rotas existentes são as:
 
